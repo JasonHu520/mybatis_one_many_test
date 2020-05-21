@@ -4,6 +4,7 @@ import com.huzong.dao.IAccountDao;
 import com.huzong.dao.IUserDao;
 import com.huzong.domain.Account;
 import com.huzong.domain.AccountUser;
+import com.huzong.domain.UserAccount;
 import com.huzong.domain.user_new;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -59,6 +60,16 @@ public class Test_one {
             System.out.println(au);
         }
     }
+
+    @Test
+    public void test_findAllUser(){
+        IAccountDao accountDao = sqlSession.getMapper(IAccountDao.class);
+        for(UserAccount ua:accountDao.findAllUser()){
+            System.out.println(ua);
+        }
+    }
+
+
     @After
     public void destroy(){
         if(sqlSession!=null)

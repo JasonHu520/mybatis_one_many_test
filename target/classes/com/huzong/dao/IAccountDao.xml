@@ -11,5 +11,8 @@
     <select id="findAllAccount" resultType="com.huzong.domain.AccountUser">
         select a.*,u.username,u.address from user_new u,account a where u.id=a.UID;
     </select>
+    <select id="findAllUser" resultType="com.huzong.domain.UserAccount">
+        select u.*,a.MONEY,a.UID from user_new u,account a where u.id=a.UID;
+    </select>
 
 </mapper>

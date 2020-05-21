@@ -2,6 +2,7 @@ package com.huzong.dao;
 
 import com.huzong.domain.Account;
 import com.huzong.domain.AccountUser;
+import com.huzong.domain.UserAccount;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -28,4 +29,10 @@ public interface IAccountDao {
      */
     @Select({"select * from account where id= #{accountID}"})
     Account findAccountById(@Param(value = "accountID") int accountID);
+
+    /**
+     * 查找所有用户
+     * @return
+     */
+    List<UserAccount> findAllUser();
 }
