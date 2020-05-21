@@ -68,6 +68,13 @@ public class Test_one {
             System.out.println(ua);
         }
     }
+    @Test
+    public void test_findByID(){
+        IUserDao userDao = sqlSession.getMapper(IUserDao.class);
+        user_new userNew = userDao.findUserById(41);
+        System.out.println(userNew);
+
+    }
 
 
     @After

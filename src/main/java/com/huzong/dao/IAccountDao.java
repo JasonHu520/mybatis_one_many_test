@@ -20,6 +20,7 @@ public interface IAccountDao {
      * 查找所有的账户
      * @return
      */
+    @Select("select a.*,u.username,u.address from user_new u,account a where u.id=a.UID")
     List<AccountUser> findAllAccount();
 
     /**
@@ -34,5 +35,6 @@ public interface IAccountDao {
      * 查找所有用户
      * @return
      */
+    @Select("select u.*,a.MONEY,a.UID from user_new u,account a where u.id=a.UID;")
     List<UserAccount> findAllUser();
 }

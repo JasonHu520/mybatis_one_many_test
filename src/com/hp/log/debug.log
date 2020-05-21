@@ -26,3 +26,267 @@ DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.Connect
 DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@723ca036]
 2020-05-21 20:02:14 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
 DEBUG:Returned connection 1916575798 to pool.
+2020-05-21 21:24:58 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-05-21 21:24:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:24:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:24:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:24:58 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IAccountDao.class
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IUserDao.class
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IAccountDao  java/lang/Object findAll ()Ljava/util/List; 	Signature /()Ljava/util/List<Lcom/huzong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account findAllAccount 3()Ljava/util/List<Lcom/huzong/domain/AccountUser;>; Jselect a.*,u.username,u.address from user_new u,account a where u.id=a.UID findAccountById (I)Lcom/huzong/domain/Account; ,select * from account where id= #{accountID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; 	accountID findAllUser 3()Ljava/util/List<Lcom/huzong/domain/UserAccount;>; Dselect u.*,a.MONEY,a.UID from user_new u,account a where u.id=a.UID; 
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IUserDao  java/lang/Object findAll ()Ljava/util/List; 	Signature 0()Ljava/util/List<Lcom/huzong/domain/user_new;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user_new findUserById (I)Lcom/huzong/domain/user_new; (select * from usernew where id=#{userID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; userID 
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IAccountDao matches criteria [is assignable to Object]
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IUserDao matches criteria [is assignable to Object]
+2020-05-21 21:28:37 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2020-05-21 21:28:38 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 352598575.
+2020-05-21 21:28:38 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@15043a2f]
+2020-05-21 21:28:38 下午 [Thread: main][ Class:com.huzong.dao.IAccountDao.findAllUser >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select u.*,a.MONEY,a.UID from user_new u,account a where u.id=a.UID; 
+2020-05-21 21:28:38 下午 [Thread: main][ Class:com.huzong.dao.IAccountDao.findAllUser >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 
+2020-05-21 21:28:38 下午 [Thread: main][ Class:com.huzong.dao.IAccountDao.findAllUser >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 3
+2020-05-21 21:28:38 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@15043a2f]
+2020-05-21 21:28:38 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@15043a2f]
+2020-05-21 21:28:38 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 352598575 to pool.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IAccountDao.class
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IUserDao.class
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IAccountDao  java/lang/Object findAll ()Ljava/util/List; 	Signature /()Ljava/util/List<Lcom/huzong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account findAllAccount 3()Ljava/util/List<Lcom/huzong/domain/AccountUser;>; Jselect a.*,u.username,u.address from user_new u,account a where u.id=a.UID findAccountById (I)Lcom/huzong/domain/Account; ,select * from account where id= #{accountID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; 	accountID findAllUser 3()Ljava/util/List<Lcom/huzong/domain/UserAccount;>; Dselect u.*,a.MONEY,a.UID from user_new u,account a where u.id=a.UID; 
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IUserDao  java/lang/Object findAll ()Ljava/util/List; 	Signature 0()Ljava/util/List<Lcom/huzong/domain/user_new;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user_new findUserById (I)Lcom/huzong/domain/user_new; (select * from usernew where id=#{userID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; userID 
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IAccountDao matches criteria [is assignable to Object]
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IUserDao matches criteria [is assignable to Object]
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 673586830.
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:31:46 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from usernew where id=? 
+2020-05-21 21:31:46 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 1(Integer)
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:31:46 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 673586830 to pool.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IAccountDao.class
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IUserDao.class
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IAccountDao  java/lang/Object findAll ()Ljava/util/List; 	Signature /()Ljava/util/List<Lcom/huzong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account findAllAccount 3()Ljava/util/List<Lcom/huzong/domain/AccountUser;>; Jselect a.*,u.username,u.address from user_new u,account a where u.id=a.UID findAccountById (I)Lcom/huzong/domain/Account; ,select * from account where id= #{accountID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; 	accountID findAllUser 3()Ljava/util/List<Lcom/huzong/domain/UserAccount;>; Dselect u.*,a.MONEY,a.UID from user_new u,account a where u.id=a.UID; 
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IUserDao  java/lang/Object findAll ()Ljava/util/List; 	Signature 0()Ljava/util/List<Lcom/huzong/domain/user_new;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user_new findUserById (I)Lcom/huzong/domain/user_new; )select * from user_new where id=#{userID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; userID 
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IAccountDao matches criteria [is assignable to Object]
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IUserDao matches criteria [is assignable to Object]
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 673586830.
+2020-05-21 21:32:10 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:32:10 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from user_new where id=? 
+2020-05-21 21:32:10 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 1(Integer)
+2020-05-21 21:32:11 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 0
+2020-05-21 21:32:11 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:32:11 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:32:11 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 673586830 to pool.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IAccountDao.class
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: IUserDao.class
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IAccountDao.class
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IAccountDao  java/lang/Object findAll ()Ljava/util/List; 	Signature /()Ljava/util/List<Lcom/huzong/domain/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account findAllAccount 3()Ljava/util/List<Lcom/huzong/domain/AccountUser;>; Jselect a.*,u.username,u.address from user_new u,account a where u.id=a.UID findAccountById (I)Lcom/huzong/domain/Account; ,select * from account where id= #{accountID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; 	accountID findAllUser 3()Ljava/util/List<Lcom/huzong/domain/UserAccount;>; Dselect u.*,a.MONEY,a.UID from user_new u,account a where u.id=a.UID; 
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:250) ]
+DEBUG:Not a JAR: file:/C:/Users/JasonHu/IdeaProjects/mybatis_one_many/target/classes/com/huzong/dao/IUserDao.class
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ������ :   com/huzong/dao/IUserDao  java/lang/Object findAll ()Ljava/util/List; 	Signature 0()Ljava/util/List<Lcom/huzong/domain/user_new;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user_new findUserById (I)Lcom/huzong/domain/user_new; )select * from user_new where id=#{userID} "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; userID 
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IAccountDao matches criteria [is assignable to Object]
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class com.huzong.dao.IUserDao matches criteria [is assignable to Object]
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 673586830.
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:32:39 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: select * from user_new where id=? 
+2020-05-21 21:32:39 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 41(Integer)
+2020-05-21 21:32:39 下午 [Thread: main][ Class:com.huzong.dao.IUserDao.findUserById >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 1
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28261e8e]
+2020-05-21 21:32:39 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 673586830 to pool.

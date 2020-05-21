@@ -19,8 +19,11 @@
             </dataSource>
         </environment>
     </environments>
+<!--    <mappers>-->
+<!--        <mapper resource="com/huzong/dao/Mappers.xml"></mapper>-->
+<!--        <mapper resource="com/huzong/dao/IAccountDao.xml"></mapper>-->
+<!--    </mappers>-->
     <mappers>
-        <mapper resource="com/huzong/dao/Mappers.xml"></mapper>
-        <mapper resource="com/huzong/dao/IAccountDao.xml"></mapper>
+        <package name="com.huzong.dao"/>
     </mappers>
 </configuration>
